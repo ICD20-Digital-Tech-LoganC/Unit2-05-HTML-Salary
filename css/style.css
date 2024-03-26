@@ -1,4 +1,41 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Logan Connors
+* Created on: Mar 25 2024
 * This file contains the CSS for index.html
 */
+h1 {
+  background-color: #e1ff00;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 25pt;
+  color: black;
+  line-height: 24pt;
+  padding-left: 25pt;
+  padding-right: 25pt;
+  padding-top: 25pt;
+  padding-bottom: 25pt;
+}
+
+body {
+  background-color: #360359;
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+#answers {
+  color: white;
+  font-weight: bold;
+  background-color: #4766ff;
+  margin: 5px;
+}
+
+#answers2 {
+  color: white;
+  font-weight: bold;
+  background-color: #4766ff;
+  margin: 5px;
+}

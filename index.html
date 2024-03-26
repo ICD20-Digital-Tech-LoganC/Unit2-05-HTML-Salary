@@ -1,9 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Salary Program, with JS" />
+  <meta name="keywords" content="immaculata, ics2o" />
+  <meta name="author" content="Logan Connors" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png" />
+  <link rel="manifest" href="./fav_index/site.webmanifest" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/script.js"></script>
+  <title>Salary Program, with JS</title>
+</head>
+
+<body>
+  <center>
+    <h1>Salary Program, with JS file</h1>
+  </center>
+  <h5>Please enter your employment information:</h5>
+  <form action="javascript:enterClicked()">
+    <label for="hnumber"">Hours Worked</label>
+      <input type=" number" id="hours_worked" placeholder="Hours Worked"><br><br>
+      <label for="hnumber">Hourly Rate</label>
+      <input type="number" id="hourly_Rate" placeholder="Hourly Rate"><br><br>
+      <input type="submit" value="Enter">
+  </form>
+  <div id="answers2"></div>
+  <div id="answers"></div>
+</body>
+
 </html>
